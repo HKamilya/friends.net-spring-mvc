@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  bold;
+    font-size: 14px;
+    color: black;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/* Container */
+.container_main{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+/* Header */
+.header{
+    padding: 30px 0;
+    background-color: #161616;
+}
+
+.header__logo{
+    width: 50px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.hl{
+    font-family: 'Ravi Prakash' , cursive;
+    font-size: 40px;
+    color:white;
+    text-decoration: none;
+    width: 20%;
+}
+
+.picture{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.nav__link{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.4s linear;
+}
+
+.nav__link:hover{
+    color: orange;
+}
+
+.header__inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.header__auth{
+    width: 20%;
+    display: flex;
+}
+
+.auth__link{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.4s linear;
+}
+
+.auth__link:hover{
+    color: orange;
+}
+
+.information{
+    background-color: lightpink;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.text_onslider{
+    font-family: 'Ravi Prakash' , cursive;
+    font-size: 70px;
+    margin-top: -50px;
+    margin-left: -25px;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.text_onslider2{
+    font-family: 'Ravi Prakash' , cursive;
+    font-size: 70px;
+    margin-top: -100px;
+    margin-left: -25px;
+    color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.slider_item{
+    position: relative;
+}
+.pages{
+    height: 100vh;
+    overflow: hidden;
+}
+

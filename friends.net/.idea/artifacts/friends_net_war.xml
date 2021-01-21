@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="friends.net:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>friends.net</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="friends.net-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="friends.net:war exploded" />
+    </root>
+  </artifact>
+</component>
