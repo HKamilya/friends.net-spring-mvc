@@ -1,0 +1,1 @@
+# friends.net-spring-mvc
